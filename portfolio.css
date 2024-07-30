@@ -30,6 +30,14 @@ body {
 .color {
   color: white;
 }
+.tes {
+  font-size: 20px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px white;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  text-align: center;
+}
 
 .icon:hover::before {
   box-shadow: 5px 5px 10px 2px white;
@@ -65,7 +73,7 @@ h1 {
 
 .ma {
   margin-left: 20px;
-  margin-right: 6px;
+  margin-right: 20px;
 }
 
 .row {
@@ -110,6 +118,14 @@ h3 {
 
 .spost::before {
   margin-right: 5px;
+}
+
+p.color {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.space-ev {
+  justify-content: space-evenly;
+  margin-bottom: 15px;
 }
 
 @media screen and (max-width: 700px) {
