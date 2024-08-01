@@ -84,6 +84,7 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 10px;
+  gap: 20px;
 }
 
 h3 {
@@ -159,6 +160,10 @@ p.color {
 .top {
   margin-top: 50px;
 }
+
+.left {
+  margin-left: 20px;
+}
 .tex {
   text-align: center;
   margin-top: 0px;
@@ -167,5 +172,27 @@ p.color {
 @media screen and (max-width: 700px) {
   .ma {
     margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .sfondo {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .resp {
+    flex-direction: column;
+  }
+  .sfondo {
+    align-content: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .row {
+    flex-direction: column;
+    align-content: center;
   }
 }
