@@ -37,10 +37,6 @@ body {
   text-align: center;
 }
 
-.icon:hover::before {
-  box-shadow: 5px 5px 10px 2px white;
-}
-
 .primo {
   display: flex;
   margin-left: 20px;
@@ -93,9 +89,6 @@ h3 {
 .wi {
   width: 60px;
 }
-.wi:hover {
-  box-shadow: 5px 5px 10px 2px white;
-}
 
 .foo {
   background-color: rgb(34, 36, 36);
@@ -113,7 +106,6 @@ h3 {
   margin-top: 0px;
   justify-content: center;
   flex-direction: column;
-  width: 20em;
 }
 .m {
   display: flex;
@@ -189,13 +181,16 @@ p.color {
   margin-top: 40px;
 }
 
-@media screen and (max-width: 700px) {
-  .ma {
-    margin-left: 10px;
-  }
+@media screen and (max-width: 900px) {
   .skills2 {
     flex-direction: column;
     gap: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .ma {
+    margin-left: 10px;
   }
 }
 
