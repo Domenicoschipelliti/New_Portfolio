@@ -181,6 +181,10 @@ p.color {
   margin-top: 40px;
 }
 
+.zero-ma {
+  margin: 0px;
+}
+
 @media screen and (max-width: 900px) {
   .skills2 {
     flex-direction: column;
