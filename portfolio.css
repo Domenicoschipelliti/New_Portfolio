@@ -3,7 +3,7 @@
 }
 
 .photo {
-  border-radius: 100px;
+  border-radius: 90em;
   width: 200px;
 }
 
@@ -183,6 +183,24 @@ p.color {
 
 .zero-ma {
   margin: 0px;
+}
+
+.bottone {
+  padding: 15px;
+  border-radius: 90px;
+  background-color: white;
+  transition: transform 0.3s ease;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.bottone:hover {
+  transform: translateY(-2px);
+  box-shadow: 2px 2px 10px 2px white;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(34, 36, 36);
 }
 
 @media screen and (max-width: 900px) {
