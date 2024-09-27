@@ -5,17 +5,17 @@
 .photo {
   border-radius: 90em;
   width: 200px;
+  margin-right: 20px;
 }
 
 .sfondo {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-content: end;
+  align-content: center;
   background-color: rgb(34, 36, 36);
   color: white;
-  width: 300px;
-  height: 300px;
+
   border-bottom-right-radius: 90px;
   flex-direction: column;
 }
@@ -29,21 +29,43 @@ body {
   color: white;
 }
 .tes {
-  font-size: 50px;
+  font-size: 20px;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px white;
   margin-top: 0px;
   margin-bottom: 5px;
+}
+
+.scritta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
   text-align: center;
 }
 
 .primo {
   display: flex;
-  margin-left: 20px;
+  margin-left: 0px;
   flex-direction: column;
-  flex: auto;
+}
+.space {
+  display: flex;
+  justify-content: space-between;
+}
+.cont-pre {
+  display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  align-content: center;
+}
+.testo-pre {
+  font-size: 25px;
+  text-align: center;
+}
+
+.cont-bu {
+  display: flex;
+  flex-wrap: wrap;
   align-content: center;
 }
 
@@ -140,7 +162,7 @@ p.color {
 }
 
 .ga {
-  gap: 4px;
+  gap: 18px;
 }
 .caard {
   display: flex;
@@ -196,6 +218,7 @@ p.color {
   background-color: white;
   transition: transform 0.3s ease;
   font-family: "Roboto Condensed", sans-serif;
+  cursor: pointer;
 }
 
 .bottone:hover {
@@ -225,8 +248,16 @@ p.color {
   border-radius: 20px;
 }
 
+.dimensione {
+  font-size: 30px;
+}
+
 .repo:hover {
   box-shadow: 2px 2px 10px 2px white;
+}
+
+.resp {
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 900px) {
