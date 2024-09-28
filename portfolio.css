@@ -24,7 +24,7 @@
 }
 
 .photo {
-  border-radius: 90em;
+  border-radius: 18%;
   width: 200px;
   margin-right: 20px;
 }
@@ -36,7 +36,6 @@
   align-content: center;
   background-color: rgb(34, 36, 36);
   color: white;
-
   border-bottom-right-radius: 90px;
   flex-direction: column;
 }
@@ -120,7 +119,7 @@ h1 {
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
   flex-wrap: wrap;
   margin-bottom: 10px;
   gap: 20px;
@@ -279,6 +278,19 @@ p.color {
 
 .resp {
   margin-bottom: 1rem;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 4em;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.mar-cen {
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 900px) {
