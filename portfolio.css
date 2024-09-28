@@ -106,7 +106,7 @@ h1 {
 }
 
 .icon {
-  font-size: 60px;
+  font-size: 37px;
   display: flex;
   justify-content: center;
 }
@@ -129,7 +129,7 @@ h3 {
   text-align: center;
 }
 .wi {
-  width: 60px;
+  width: 37px;
 }
 
 .foo {
@@ -282,15 +282,40 @@ p.color {
 
 .cont {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  gap: 4em;
+  gap: 2em;
   justify-content: center;
   margin-bottom: 20px;
 }
 .mar-cen {
   margin-right: 20px;
+}
+
+.box {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border: solid 3px whitesmoke;
+  padding: 4px;
+  margin-bottom: 20px;
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.boxsoft {
+  display: flex;
+  flex-direction: column;
+}
+
+.border {
+  border: solid 3px whitesmoke;
+  padding: 12px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 900px) {
