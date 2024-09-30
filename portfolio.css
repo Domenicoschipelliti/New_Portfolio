@@ -323,7 +323,6 @@ p.color {
 
 .boxproject {
   display: flex;
-  justify-content: center;
   gap: 20px;
 }
 
@@ -339,6 +338,20 @@ p.color {
 .gra {
   width: 250px;
   border-radius: 10%;
+}
+.direzione {
+  justify-content: left;
+}
+
+.direzione2 {
+  justify-content: right;
+}
+
+.paragrafo {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-content: center;
 }
 
 @media screen and (max-width: 900px) {
