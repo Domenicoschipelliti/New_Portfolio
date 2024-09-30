@@ -327,6 +327,20 @@ p.color {
   gap: 20px;
 }
 
+.gi {
+  font-size: 20px;
+}
+
+.fun {
+  width: 120px;
+  border-radius: 10%;
+}
+
+.gra {
+  width: 250px;
+  border-radius: 10%;
+}
+
 @media screen and (max-width: 900px) {
   .skills2 {
     flex-direction: column;
