@@ -14,18 +14,20 @@
     <link rel="stylesheet" href="portfolio.css" />
     <title>PortFolio-Domenico Schipelliti</title>
   </head>
-  <body>
-    <!--header-->
-    <header>
-      <!-- navBar -->
-
+  <body id="me">
+    <!-- navBar -->
+    <nav>
       <ul class="navBar">
         <a class="te" href="#me"> <li class="nav-style">About</li></a>
         <a class="te" href="#skills"><li class="nav-style">Skills</li></a>
         <a class="te" href="#projects"><li class="nav-style">Projects</li></a>
         <a class="te" href="#hobby"><li class="nav-style">Hobby</li></a>
       </ul>
+    </nav>
 
+    <!--header-->
+
+    <header>
       <div class="dis resp secondo">
         <div class="sfondo">
           <div class="dis space-ev">
@@ -63,7 +65,7 @@
     <!--main-->
     <main>
       <div class="dis just secondo">
-        <h1 class="color">SKILLS</h1>
+        <h1 class="color" id="skills">SKILLS</h1>
       </div>
 
       <div class="cont">
@@ -162,7 +164,7 @@
         </div>
       </div>
       <div>
-        <h1 class="color">PROGETTI</h1>
+        <h1 class="color" id="projects">PROGETTI</h1>
       </div>
 
       <div class="boxproject distanza direzione">
@@ -190,7 +192,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="dis just">
           <div class="dis just secondo sist">
             <h3 class="color cent">BarCafe</h3>
             <div class="dis just">
@@ -228,7 +230,7 @@
             (non create da me).
           </p>
         </div>
-        <div>
+        <div class="dis just">
           <div class="dis just secondo sist">
             <h3 class="color cent">FunWordTV</h3>
             <div class="dis just">
@@ -245,7 +247,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="dis just">
           <div class="dis just secondo sist">
             <h3 class="color cent">Spotify-Clone</h3>
             <div class="dis just">
@@ -265,7 +267,7 @@
         </div>
       </div>
       <div class="top">
-        <h1 class="color">HOBBY</h1>
+        <h1 class="color" id="hobby">HOBBY</h1>
       </div>
       <div class="hobby">
         <div class="caard">
@@ -353,8 +355,9 @@
         </ul>
       </div>
       <div class="dis just">
-        <p class="zero-ma">Domenico Schipelliti - All rights reserved</p>
+        <p class="zero-ma" id="calendar"></p>
       </div>
     </footer>
+    <script src="portfolio.js"></script>
   </body>
 </html>
