@@ -414,11 +414,41 @@ p {
   .sfondo {
     align-content: center;
   }
+
+  .icon {
+    font-size: 26px;
+  }
+
+  .wi {
+    width: 26px;
+  }
+
+  .navBar {
+    left: -25px;
+  }
+
+  .photo {
+    margin-right: 5px;
+    height: 203px;
+    margin-left: 10px;
+  }
+
+  .hobby {
+    gap: 2rem;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .row {
     flex-direction: column;
     align-content: center;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+
+  .wi {
+    width: 20px;
   }
 }
