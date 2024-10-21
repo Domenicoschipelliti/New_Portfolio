@@ -50,7 +50,7 @@ p {
 }
 
 .nav-style:hover {
-  color: deeppink;
+  color: green;
 }
 /* ------ */
 .te {
@@ -125,7 +125,7 @@ p {
   color: white;
   display: flex;
   flex-direction: column;
-  box-shadow: 5px 5px 10px 10px white;
+  box-shadow: 5px 5px 10px 10px green;
 }
 
 .list {
@@ -136,15 +136,24 @@ p {
   margin-top: 0px;
   justify-content: center;
   flex-direction: column;
+  gap: 10px;
 }
 .m {
   display: flex;
   justify-content: space-between;
+  gap: 10px;
+}
+
+.simbolo-about {
+  text-decoration: none;
+  color: white;
 }
 
 .link-footer {
   text-decoration: none;
   color: white;
+  display: flex;
+  gap: 10px;
 }
 
 p.color {
@@ -169,7 +178,7 @@ p.color {
   display: flex;
   flex-direction: column;
   width: 200px;
-  border: 3px solid white;
+  border: 3px solid green;
   border-radius: 10%;
 }
 
@@ -235,7 +244,7 @@ p.color {
 .sist {
   flex-wrap: wrap;
   align-content: center;
-  border: 3px solid white;
+  border: 3px solid green;
   border-radius: 10px;
   width: 300px;
 }
@@ -252,6 +261,11 @@ p.color {
 
 .dimensione {
   font-size: 30px;
+}
+
+.dimensione:hover {
+  font-size: 40px;
+  transition: font-size 0.7s ease-in-out;
 }
 
 .repo:hover {
@@ -278,7 +292,7 @@ p.color {
   color: white;
   display: flex;
   flex-direction: column;
-  border: solid 3px whitesmoke;
+  border: solid 3px green;
   padding: 4px;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -296,7 +310,7 @@ p.color {
 }
 
 .border {
-  border: solid 3px whitesmoke;
+  border: solid 3px green;
   padding: 12px;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -322,6 +336,22 @@ p.color {
   flex-wrap: wrap;
   text-align: center;
   align-content: center;
+}
+
+.gi {
+  margin-right: 5px;
+}
+
+.divisore {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hov:hover {
+  font-size: 20px;
+  transition: font-size 0.7s ease-in-out;
 }
 
 @media screen and (max-width: 900px) {
